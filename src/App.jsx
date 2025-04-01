@@ -12,7 +12,7 @@ import Details from "./Pages/Details";
 import Signin from "./Pages/Signin";
 import Signup from "./Pages/Signup";
 import Counter from "./Pages/Counter";
-import Screen from "./Pages/Screen";
+
 
 function App() {
   return (
@@ -30,7 +30,6 @@ function App() {
           <Route path="/Signin" element={<Signin />} />
           <Route path="/Counter" element={<Counter />} />
           <Route path="/Signup" element={<Signup />} />
-          <Route path="/Screen" element={<Screen />} />
 
           {/* <Route path="/Page1" element={<Page1/>}></Route> */}
         </Routes>
