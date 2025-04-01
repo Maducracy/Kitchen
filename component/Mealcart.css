@@ -1,0 +1,17 @@
+.image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 30%;
+    padding: 20px 10px;
+
+    border-radius: 10px;
+  
+}
+.img{
+    height: 60%;
+    width: 100%;
+    border-radius: 10px;
+}

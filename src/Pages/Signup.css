@@ -1,0 +1,6 @@
+@media(MAx-width:500px){
+    .Signup_media{
+        display: flex;
+        flex-direction: column;
+    }
+}

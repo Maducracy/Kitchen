@@ -10,8 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "hamburger-react": "^2.5.2",
+    "lottie-react": "^2.4.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-multi-carousel": "^2.8.5",
+    "react-router-dom": "^7.4.0",
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
