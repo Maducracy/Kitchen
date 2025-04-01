@@ -21,7 +21,7 @@ import { useState } from "react";
 import facebook from "../Pages/facebook.png";
 import X from "../Pages/X.png";
 import instagram from "../Pages/instagram.png";
-import Nav from "../../component/nav";
+import Nav from "../../component/Nav";
 
 function Page1() {
   const navigate = useNavigate();
