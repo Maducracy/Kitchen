@@ -1,8 +1,6 @@
 import React from "react";
 import Logo from "../Pages/Logo.svg";
 import "./Page1.css";
-import { Link } from "react-router-dom";
-import telephone from "../Pages/telephone.png";
 import Banner from "../Pages/Banner.png";
 import featureOne from "../Pages/featureOne.svg";
 import featureTwo from "../Pages/featureTwo.svg";
@@ -36,43 +34,7 @@ function Page1() {
 
   return (
     <div>
-      {/* <nav className="Navigation-desktop">
-        <div className="Nav1">
-          <img className="logo-img" src={Logo} alt="" />
-          <h1 className="chef-kitchen">Chef's Kitchen</h1>
-        </div>
-        <div>
-          <ul className="Nav-link">
-            <Link className="nodecoration" to={"/Home"}>
-              Foods
-            </Link>
-           
-            <Link className="nodecoration" to={"/Aboutus"}>
-              Aboutus
-            </Link>
-            <Link className="nodecoration" to={"/Recipes"}>
-              Recipe
-            </Link>
-            <Link className="nodecoration" to={"Gallery"}>
-              Gallery
-            </Link>
-            <Link className="" to={"/Screen"}>
-              {" "}
-              Screen
-            </Link>
-          </ul>
-        </div>
-        <div className="nav3">
-          <img className="telephone-img" src={telephone} alt="" />
-          <p className="number">+1(909)235-9814</p>
-          <button className="navbutton1" onClick={handlebutton}>
-            Sign in
-          </button>
-          <button className="navbutton2" onClick={Signbutton}>
-            Sign Up
-          </button>
-        </div>
-      </nav> */}
+     
       <Nav/>
 
       <div className="hero-section">
