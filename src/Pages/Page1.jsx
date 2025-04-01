@@ -4,7 +4,7 @@ import "./Page1.css";
 import Banner from "../Pages/Banner.png";
 import featureOne from "../Pages/featureOne.svg";
 import featureTwo from "../Pages/featureTwo.svg";
-import cook from "../Pages/Cook.png";
+import cook from "../Pages/cook.png";
 import burger from "../Pages/burger.png";
 import featureFour from "../Pages/featureFour.svg";
 import featureThree from "../Pages/featureThree.svg";
