@@ -12,3 +12,5 @@ export const Counter2 = create((set) => ({
   minus: () => set((state) => ({ count: state.count - 1 })),
   del: () => set({ count: 0 }),
 }));
+
+

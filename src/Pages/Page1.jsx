@@ -24,18 +24,11 @@ import instagram from "../Pages/instagram.png";
 import Nav from "../../component/Nav";
 
 function Page1() {
-  const navigate = useNavigate();
-  const handlebutton = () => {
-    navigate("/Signin");
-  };
-  const Signbutton = () => {
-    navigate("/Signup");
-  };
+
 
   return (
     <div>
-     
-      <Nav/>
+      <Nav />
 
       <div className="hero-section">
         <div className=" main-hero-sec-ctn">
@@ -161,16 +154,14 @@ function Page1() {
                   style={{ width: "40px", marginRight: "10px" }}
                 />
                 <span style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
-                  Chef's Kitchen.
+                <h1 style={{fontSize:"40px", color:"orangered"}}>Eatable</h1>
                 </span>
               </div>
               <p style={{ fontSize: "0.9rem", fontWeight: "bold" }}>
                 Open an account in minutes, get full financial control for much
                 longer.
               </p>
-              
             </div>
-           
 
             <div style={{ flex: "1", minWidth: "150px", marginBottom: "20px" }}>
               <h4 style={{ marginBottom: "15px", fontWeight: "bold" }}>
@@ -370,17 +361,21 @@ function Page1() {
               color: "white",
             }}
           >
-             <div className="image_container">
-                <img style={{width: "30px"}} src={facebook} alt="" />
-                <img style={{ background: "white", width: "30px" }} src={X} alt="" />
-                <img style={{width:"30px"}} src={instagram} alt="" />
-              </div>
+            <div className="image_container">
+              <img style={{ width: "20px" }} src={facebook} alt="" />
+              <img
+                style={{ background: "white", width: "20px" }}
+                src={X}
+                alt=""
+              />
+              <img style={{ width: "20px" }} src={instagram} alt="" />
+            </div>
             &copy; 2025 - Chef's Kitchen. Distributed By{" "}
             <a
               href="https://themewagon.com/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "white", textDecoration: "none" }}
+              style={{ color: "white", textDecoration: "none", marginTop:"50px" }}
             >
               ThemeWagon
             </a>{" "}

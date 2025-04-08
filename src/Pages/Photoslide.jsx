@@ -35,23 +35,23 @@ function Photoslide() {
         removeArrowOnDeviceType={["mobile","desktop"]}
        
       >
-        <div>
+        <div style={{marginTop:"70px"}} className="image-ctn">
           <img src={girl} alt="" />
           <img className="linkedin" src={Linkedin} alt="" />
         </div>
-        <div>
+        <div  style={{marginTop:"70px"}} className="image-ctn">
           <img src={girl} alt="" />
           <img className="linkedin" src={Linkedin} alt="" />
         </div>
-        <div>
+        <div style={{marginTop:"70px"}} className="image-ctn">
           <img src={girl} alt="" />
           <img className="linkedin" src={Linkedin} alt="" />
         </div>
-        <div>
+        <div style={{marginTop:"70px"}} className="image-ctn">
           <img src={girl} alt="" />
           <img className="linkedin" src={Linkedin} alt="" />
         </div>
-        <div>
+        <div style={{marginTop:"70px"}} className="image-ctn">
           <img src={girl} alt="" />
           <img className="linkedin" src={Linkedin} alt="" />
         </div>

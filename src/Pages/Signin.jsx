@@ -1,6 +1,6 @@
 import React from "react";
 import "./Signin.css";
-import Banner from "./Banner.png";
+
 import { useState } from "react";
 
 
@@ -22,7 +22,7 @@ function signin() {
   return (
     <div className="Signin-container">
       <div>
-        <img className="img-sigin-ctn" src={Banner} alt="" />
+    
       </div>
       <div>
         <h1 className="signin">Sign in to Chefs Kitchen</h1>

@@ -357,6 +357,9 @@ h2 {
     flex-direction: column;
     text-align: center;
   }
+  .hero-sec-description{
+    font-size: 220px;
+  }
   .expert-ctn {
     flex-direction: column;
   }
@@ -384,6 +387,7 @@ h2 {
   .expert-name {
     font-size: 12px;
   }
+
   .expert-meet {
     font-size: 25px;
     margin-top: 34px;
@@ -410,6 +414,7 @@ h2 {
   .Cook-expert-word {
     font-size: 10px;
     line-height: 2.4;
+    display: none;
   }
   .Cook-expert-desc1 {
     font-size: 20px;
@@ -422,6 +427,9 @@ h2 {
   }
   .galleryname1 {
     font-size: 20px;
+  }
+  .image_container{
+    margin-bottom: 30px;
   }
   .desc-display {
   }

@@ -21,7 +21,7 @@ function Nav() {
       <div className="Pc">
         <div className="Logo-container">
           <img className="logo" src={Logo} alt="logo" />
-          <h1>Chiefs Kitchen</h1>
+          <h1 style={{fontSize:"40px", color:"orangered"}}>Eatable</h1>
         </div>
         <ul className="Nav_Link">
           <Link className="nodecoration" to={"/Home"}>Home</Link>
@@ -47,7 +47,7 @@ function Nav() {
       <div className="Mobile">
         <div className="Logo-container">
           <img src={Logo} alt="logo" />
-          <h1>Chiefs Kitchen</h1>
+          <h1 style={{fontSize:"20px", color:"orangered"}}>Eatable</h1>
         </div>
         <div className="Hamburger">
           <Hamburger toggled={isOpen} toggle={setOpen} />

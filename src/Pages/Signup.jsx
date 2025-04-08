@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Banner from "../Pages/Banner.png"
+
 import "./Signup.css"
 
 
@@ -8,7 +8,7 @@ function Signup (){
   return (
     <div className='Signup_media' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', backgroundColor: '#f9fafb' }}>
       <div style={{display:"flex"}} className='image-ctn'>
-         <img className="img-sigin-ctn" src={Banner} alt="" />
+       
       </div>
       <div style={{ padding: '32px', backgroundColor: '#fff', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.05)', maxWidth: '400px', width: '100%' }}>
         <h1 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '24px', textAlign: 'center' }}>Sign up to Chef Kitchen</h1>

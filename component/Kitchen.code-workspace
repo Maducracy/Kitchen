@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "Kitchen",
+			"path": ".."
+		},
+		{
+			"name": "JavaScript",
+			"path": "../../Product landing page/landing page/JavaScript"
+		},
+		{
+			"name": "component",
+			"path": "../../Product landing page/landing page/component"
+		}
+	],
+	"settings": {}
+}
